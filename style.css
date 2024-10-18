@@ -1,105 +1,79 @@
-header {
-    background-color: #1F2937;
-    color: #E5E7EB;
+* {
     font-family: "Roboto", sans-serif;
-    padding: 10px;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
 
-.top-header {
+h1 {
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #1F2937 ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: #F9FAF8;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+header a:hover {
+    border-bottom: solid 1px #E5E7EB;
+}
+
+header a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
-.text-header {
-    margin-top: 50px;
+/* Section un */
+
+section.partone {
+    background: #1F2937 ;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex: 1;
 }
 
-
-.place-img {
-    width: 350px;
-    height: 250px;
-    background: grey;
+section img {
+    width: 300px;
+    height: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-h1 {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    display: flex;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
-}
-
-#texte-header {
-    width: 400px;
-}
-
-h2 {
-    color: #F9FAF8;
-    font-size: 48px;
-    width: 350px;
-
-}
-
-.header-logo {
-    color: #F9FAF8;
-    font-size: 24px;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
-    padding: 5px;
-}
-
-button {
-    background-color: #3882F6;
-    color: #E5E7EB;
-    font-weight: 700;
-    border-radius: 10px;
-    height: 50px;
-    width: 100px;
-    margin: 10px
-}
-
-footer {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: row;
     justify-content: end;
 }
-quote {
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    font-size: 36px;
-    color: #1F2937;
+
+.partone h1 {
+    color: #F9FAF8;
+    font-size: 42px;
+    font-weight: 900;
 }
 
-.container-item {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
+.partone p {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
-.cadre {
-    border: solid 3px #1F2937;
+.partone button {
+    background: #3882F6;
+    color: #F9FAF8;
     border-radius: 10px;
-    width: 60px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    font-family: "Robot", sans-serif;
+    width: 100px;
+    height: auto;
 }

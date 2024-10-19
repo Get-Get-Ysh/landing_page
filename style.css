@@ -23,6 +23,7 @@ header h1 {
     color: #F9FAF8;
     font-size: 36px;
     font-weight: 900;
+    padding-left: 30px;
 }
 
 header a:hover {
@@ -41,6 +42,7 @@ header a {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+
 }
 
 /* Section un */
@@ -61,6 +63,8 @@ section.partone {
     justify-content: center;
     align-items: flex-start;
     flex: 2;
+    margin: 30px;
+    max-width: 500px;
 }
 
 section img {
@@ -88,6 +92,12 @@ section img {
     width: 300px;
 }
 
+.partone-img {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 button {
     background: #3882F6;
     color: #F9FAF8;
@@ -97,11 +107,17 @@ button {
 }
 
 /* Main */
+
 .main-container {
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    gap: 20px;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
 }
 main h1 {
     display: flex;
@@ -110,16 +126,20 @@ main h1 {
 }
 main img {
     width: 200px;
+    border: solid 3px #3882F6;
+    border-radius: 10px;
 }
+
 
 /* Section deux */
 
 .parttwo {
-    background-color: grey;
+    background-color: #E5E7EB;
     color: #1F2937;
+    padding: 30px;
     display: flex;
     justify-content: center;
-    font-size: 28px;
+    font-size: 36px;
     font-style: italic;
 }
 
@@ -131,9 +151,16 @@ footer {
     margin: 30px;
 }
 
+footer button {
+    margin: 20px;
+}
+
 .footer {
     background-color:#3882F6;
     color: #F9FAF8;
     padding: 20px;
     box-sizing: border-box;
+    width: 600px;
+    display: flex;
+    align-items: center;
 }
